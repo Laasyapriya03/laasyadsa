@@ -1,0 +1,389 @@
+Program-1(First Program-To print hello world)
+#include<stdio.h>
+int main()
+{
+printf("Hello world");
+return 0;
+}
+output
+Hello world
+
+Program-2
+#include<stdio.h>(Greetings)
+void main()
+{
+printf("welcome to c lab");
+printf("how are you?");
+}
+output
+welcome to c lab
+how are you?
+
+
+Program-3(to print name,college,college address)
+#include<stdio.h>
+int main()
+{
+printf("Priya");
+printf("RNSIT");
+printf("channasandra,bangalore");
+}
+output
+priya
+RNSIT
+channasandra,bangalore
+
+program-4(mathematical operations)
+#include<stdio.h>
+int main()
+{
+int n1,n2,sum,difference,product,division;
+n1=20;
+n2=10;
+sum=n1+n2;
+difference=n1-n2;
+product=n1*n2;
+division=n1/n2;
+printf("sum=%d\n,difference=%d\n,product=d\n,division=%d\n",sum,difference,product,division);
+return 0;
+}
+output
+sum=30
+difference=10
+product=200
+division=2
+
+program-5(area of triangle)
+#include<stdio.h>
+int main()
+{
+int b,h;
+float area;
+b=10;
+h=20;
+area=0.5*b*h;
+printf("area of triangle=%f",area);
+return 0;
+}
+output
+area=100.000000
+
+program-6(area of circle)
+#include<stdio.h>
+int main()
+{
+int r;
+float area;
+r=10;
+area=3.14*r*r;
+printf("area of circle=%f",area);
+return 0;
+}
+output
+Area of circle=314.000000
+
+program-7(to use scanf and print sum)
+#include<stdio.h>
+int main()
+{
+int a,b,sum==0;
+printf("Enter the values of a and b");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf=("sum=%d",sum);
+return 0;
+}
+output
+Enter values of a and b 10 20
+sum=30
+
+program-8(to print area of triangle with scanf)
+#include<stdio.h>
+int main()
+{
+int b,h;
+float area;
+printf("enter the values of b and h");
+scanf("%d%d",&b,&h);
+area=0.5*b*h;
+printf("area of triangle=%f",area);
+return 0;
+}
+output
+enter values of b and h 10 20
+area=100.000000
+
+program-8(to print area of circle with scanf)
+#include<stdio.h>
+int main()
+{
+int r;
+float area;
+printf(enter radius of circle:");
+scanf("%d",&r);
+area=3.14*r*r;
+printf("area of circle=%f",area);
+return 0;
+}
+output
+enter the radius of circle:10
+Area of circle=314.000000
+
+program-9(to swap two numbers)
+#include<stdio.h>
+int main()
+{
+int a,b,temp=0;
+printf("enter values of a and b");
+scanf("%d%d",&a,&b);
+printf("value of a before swapping=%d\n",a);
+printf("value of b before swapping=%d\n",b);
+temp=a;
+a=b;
+b=temp;
+printf("value of a before swapping=%d\n",a);
+printf("value of b after swapping=%d\n",b);
+return 0;
+}
+output
+enter values of a and b:10 20
+value of a before swapping=10
+value of b before swapping=20
+value of a after swapping=20
+value of b after swapping=10
+
+program-10(perimeter of triangle)
+#include<stdio.h>
+int main()
+{
+int b,h,perimeter;
+printf("enter the values of a,b,c");
+scanf("%d%d%d",&a,&b,&c);
+perimeter=a+b+c;
+printf("perimeter of triangle=%d",perimeter);
+return 0;
+}
+output
+enter the values of a b c 10 20 30
+area=60
+
+
+program-11(to print circumference of circle)
+#include<stdio.h>
+int main()
+{
+int r;
+float circumference;
+printf(enter radius of circle:");
+scanf("%d",&r);
+area=2*3.14*r;
+printf("circumference of circle=%f",circumference);
+return 0;
+}
+output
+enter the radius of circle:10
+circumference of circle=62.799999
+
+program-12(to print perimeter of square)
+#include<stdio.h>
+int main()
+{
+int a;
+float perimeter;
+printf(enter value of a:");
+scanf("%d",&a);
+perimeter=4*a;
+printf("perimeter of square=%f",perimeter);
+return 0;
+}
+output
+enter value of a:10
+perimeter of square=40.000000
+
+program-12(to print perimeter of square)
+#include<stdio.h>
+int main()
+{
+int l,b;
+float perimeter;
+printf(enter values of l and b:");
+scanf("%d",&l,&b);
+perimeter=2*(l+b);
+printf("perimeter of rectangle=%f",perimeter);
+return 0;
+}
+output
+enter values of l and b:10 20
+perimeter of square=60.000000
+
+program-13(simple interest)
+#include<stdio.h>
+int main()
+{
+int p,t,r,simpleinterest;
+printf("enter the values of p,t,r");
+scanf("%d%d%d",&p,&t,&r);
+simpleinterest=(p*t*r)/100;
+printf("simple interest=%d",simpleinterest);
+return 0;
+}
+output
+enter the values of p,t,r 10 20 30
+simple interest=60
+
+Program-14(To print hello world using escape sequences)
+#include<stdio.h>
+int main()
+{
+printf("Hello world\n");
+printf("Hello \t world");
+printf("Hello world\a");
+printf("Hello \b world");
+printf("Hello world\r");
+printf("Hello \v world");
+printf("Hello \\ world");
+printf("\'Hello world\'");
+printf("\"Hello world\"");
+printf("\Hello world\?");
+return 0;
+}
+output
+Hello world
+Hello	 world
+Hello world(wih alarm)
+Hell world
+world
+Hello 
+ world
+Hello \ world
+'Hello world'
+"Hello world"
+Hello world?
+
+program-15(octal number)
+#include<stdio.h>
+int main()
+{
+char s='\072';
+printf("%c",s);
+return 0;
+}
+output
+octal number=:
+
+program-16(hexadecimal number)
+#include<stdio.h>
+int main()
+{
+char s='\X4A';
+printf("%c",s);
+return 0;
+}
+output
+hexadecimal number =v
+
+program-17(flag)
+#include<stdio.h>
+int main()
+{
+int a=7777;
+printf("a=%07d",a);
+return 0;
+}
+output
+a=0007777
+
+program-18(flag)
+#include<stdio.h>
+int main()
+{
+int a=7777;
+printf("a=%-7d",a);
+return 0;
+}
+output
+a=7777
+
+program-19(Two four digit number)
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("enter two four digit number\n");
+scanf("%2d%4d",&a,&b);
+printf("a=%d,b=%d",a,b);
+return 0;
+}
+output
+enter two four digit number
+1234 5678
+a=12 
+b=34
+
+program-20(Two four digit number)
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("enter two four digit number\n");
+scanf("%2d%4d",&a,&b);
+printf("a=%d,b=%d",a,b);
+return 0;
+}
+output
+enter two four digit number
+12345678
+a=12 
+b=3456
+
+program-21(mathematical operations with scanf)
+#include<stdio.h>
+int main()
+{
+int n1,n2,sum,difference,product,division;
+printf("enter two nuumbers=");
+scanf("%d%d",a,b);
+sum=n1+n2;
+difference=n1-n2;
+product=n1*n2;
+division=n1/n2;
+printf("sum=%d\n,difference=%d\n,product=d\n,division=%d\n",sum,difference,product,division);
+return 0;
+}
+output
+sum=30
+difference=10
+product=200
+division=2
+
+program-22(flag)
+#include<stdio.h>
+int main()
+{
+float a=10.776
+printf("%6.3f",a);
+return 0;
+}
+output
+a=10.776
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
